@@ -51,7 +51,7 @@ var Counter = React.createClass({
     },
 
     componentDidUpdate(prevState) {
-      console.log(this.props.name + ' componentWillUpdate: you can operate on the DOM');
+      console.log(this.props.name + ' componentDidUpdate: you can operate on the DOM');
     }
 });
 
